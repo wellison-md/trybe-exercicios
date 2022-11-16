@@ -2,15 +2,17 @@
 
 # Trybe exercícios :rocket:
 
-> **Turma:** 29 
-> **Tribo:** B
-> **início:** 4-nov-2022
+**Turma:** 29 
+**Tribo:** B
+**início:** 4-nov-2022
+
+
 
 <br>
 
 :dart: O objetivo deste repositório é agrupar e expor todos os exercícios e projetos propostos realizados por mim durante a minha jornada de formação como desenvolvedor web full-stack. O curso conta com aproximadamente 1500 horas divididas entre hard e soft-skills, além de projetos reais voltados para o mercado de trabalho. [#vqv]()
 
-<br><br> 
+<br>
 
 ## :round_pushpin: Lista de conteúdos 
 
@@ -21,7 +23,7 @@
 
 - [x] **1. Unix e bash**
 	- [x] [1.1. Unix & bash - parte 1](./01-fundamentos/01-unix-e-shell/d1/readme.md)
-	- [x] 1.2. Unix & bash - parte 2
+	- [x] [1.2. Unix & bash - parte 2](./01-fundamentos/01-unix-e-shell/d2/readme.md)
 	
   <br>
 - [x] **2. Git & Github**
