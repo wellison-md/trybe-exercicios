@@ -31,15 +31,15 @@
 	- [x] 2.2. Git & Github - entendendo os comandos
 	
   <br>
-- [ ] **3. Introdução à HTML & CSS**
-	- [ ] 3.1. Estruturas de página
-	- [ ] 3.2. Primeiros passos com CSS
-	- [ ] 3.3. Seletores e posicionamento
-	- [ ] 3.4. HTML semântico
-	- [ ] 3.5. PROJETO - Lessons Learned
+- [x] **3. Introdução à HTML & CSS**
+	- [x] 3.1. Estruturas de página
+	- [x] 3.2. Primeiros passos com CSS
+	- [x] 3.3. Seletores e posicionamento
+	- [x] 3.4. HTML semântico
+	- [x] 3.5. PROJETO - Lessons Learned
 	
   <br>
-- [ ] **4. Introdução à Javascript**
+- [x] **4. Introdução à Javascript**
 	- [ ] 4.1. Primeiros passos
 	- [ ] 4.2. Array e loop for
 	- [ ] 4.3. Lógica de programação e algoritmos
