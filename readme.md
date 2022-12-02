@@ -40,7 +40,7 @@
 	
   <br>
 - [x] **4. Introdução à Javascript**
-	- [ ] 4.1. Primeiros passos
+	- [x] 4.1. Primeiros passos
 	- [ ] 4.2. Array e loop for
 	- [ ] 4.3. Lógica de programação e algoritmos
 	- [ ] 4.4. Objetos e funções
