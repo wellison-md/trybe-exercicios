@@ -44,12 +44,11 @@ Resultado: R$ 2.612,55.
 De olho na dica 👀: que tal identificar as alíquotas com variáveis de nomes explicativos?
 
 */
-const minimumWage22 = 1212.00;
+const minimumWage = 1212.00;
 let myWage = 1600.00;
-let inssFee = 0;
-let irFee = 0;
 
-const calcINSS = (grossSalary = minimumWage22) => {
+const calcINSS = (grossSalary = minimumWage) => {
+  
   if (grossSalary <= 1556.94) {
     return grossSalary * 0.08;
   } else if (grossSalary > 1556.94 && grossSalary <= 2594.92) {
@@ -61,12 +60,24 @@ const calcINSS = (grossSalary = minimumWage22) => {
   }
 }
 
-const calcIR = (salaryAfterInss) => {
+const calcIR = (salaryAfterInss = minimumWage) => {
 
+  let irFee = 0;
+
+  if (salaryAfterInss <= 1903.98) {
+    return 0;
+  } else if (salaryAfterInss > 1903.98 && salaryAfterInss <= 2826.65) {
+    irFee = salaryAfterInss * 0.075 - 142.80;
+    return irFee < 0 ? 0 : irFee;
+  } else if (salaryAfterInss > 2826.65 && salaryAfterInss <= 3751.05) {
+    irFee = salaryAfterInss * 0.15 - 354.8;
+  } else if (salaryAfterInss > 3751.05 && salaryAfterInss <= 4664.68) {
+    irFee = salaryAfterInss * 0.225 - 636.13;
+  } else if (salaryAfterInss > 4664.68) {
+    irFee = salaryAfterInss * 0.275 - 869.36;
+  }
+  return irFee < 0 ? 0 : irFee;
 }
 
 
-console.log(calcINSS(myWage))
-console.log(calcINSS(2300))
-console.log(calcINSS())
-console.log(calcINSS(3500))
+console.log(calcIR(5000))
