@@ -48,7 +48,7 @@ const minimumWage = 1212.00;
 let myWage = 1600.00;
 
 const calcINSS = (grossSalary = minimumWage) => {
-  
+
   if (grossSalary <= 1556.94) {
     return grossSalary * 0.08;
   } else if (grossSalary > 1556.94 && grossSalary <= 2594.92) {
@@ -79,5 +79,9 @@ const calcIR = (salaryAfterInss = minimumWage) => {
   return irFee < 0 ? 0 : irFee;
 }
 
+const calcNetSalary = (salary) => {
+  let salaryWithoutInss = salary - calcINSS(salary);
+  return salaryWithoutInss - calcIR(salaryWithoutInss);
+}
 
-console.log(calcIR(5000))
+console.log(calcNetSalary(3000));
