@@ -46,11 +46,27 @@ De olho na dica 👀: que tal identificar as alíquotas com variáveis de nomes 
 */
 const minimumWage22 = 1212.00;
 let myWage = 1600.00;
+let inssFee = 0;
+let irFee = 0;
 
 const calcINSS = (grossSalary = minimumWage22) => {
-
+  if (grossSalary <= 1556.94) {
+    return grossSalary * 0.08;
+  } else if (grossSalary > 1556.94 && grossSalary <= 2594.92) {
+    return grossSalary * 0.09;
+  } else if (grossSalary > 2594.92 && grossSalary <= 5189.82) {
+    return grossSalary * 0.11;
+  } else if (grossSalary > 5189.82) {
+    return 570.88;
+  }
 }
 
 const calcIR = (salaryAfterInss) => {
 
 }
+
+
+console.log(calcINSS(myWage))
+console.log(calcINSS(2300))
+console.log(calcINSS())
+console.log(calcINSS(3500))
