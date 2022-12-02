@@ -2,16 +2,16 @@
  
 let numbers = [5, 9, 3, 19, 70, 8, 100, 2, 35, 27];
 
-Some todos os valores contidos no array e imprima o resultado;
+Calcule e imprima a média aritmética dos valores contidos no array;
  */
 
 let numbers = [5, 9, 3, 19, 70, 8, 100, 2, 35, 27];
-let sum = 0;
+let average = 0;
 
-const sumArray = (numbers) => {
+const averageArray = (numbers) => {
   for (let index = 0; index < numbers.length; index += 1) {
-    sum += numbers[index];
+    average += numbers[index];
   }
-  return sum;
+  return average / numbers.length;
 }
-console.log(`A soma do array ${numbers}\né: ${sumArray(numbers)}`)
+console.log(`A média do array ${numbers}\né: ${averageArray(numbers)}`)
