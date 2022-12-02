@@ -9,8 +9,8 @@ Os exercícios destacados com 🚀 são os fundamentais pra você ir bem no proj
 Iremos utilizar esse array para realizar os próximos exercícios.
 
 `let numbers = [5, 9, 3, 19, 70, 8, 100, 2, 35, 27];`
-- [ ] Percorra o array imprimindo todos os valores nele contidos com a função console.log();
-- [ ] Some todos os valores contidos no array e imprima o resultado;
+- [x] Percorra o array imprimindo todos os valores nele contidos com a função console.log();
+- [x] Some todos os valores contidos no array e imprima o resultado;
 
 - [ ] Calcule e imprima a média aritmética dos valores contidos no array;
 
