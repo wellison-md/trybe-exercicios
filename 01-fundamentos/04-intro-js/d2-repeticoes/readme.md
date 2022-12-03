@@ -24,4 +24,4 @@ Iremos utilizar esse array para realizar os próximos exercícios.
 
 - [x] Utilizando for, crie um array que vá de 1 até 25 e imprima o resultado;
 
-- [ ] Utilizando o array que acabou de criar, imprima o resultado da divisão de cada um dos elementos por 2.
+- [x] Utilizando o array que acabou de criar, imprima o resultado da divisão de cada um dos elementos por 2.
