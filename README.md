@@ -40,8 +40,8 @@
 	
   <br>
 - [x] **4. Introdução à Javascript**
-	- [x] 4.1. Primeiros passos
-	- [ ] 4.2. Array e loop for
+	- [x] [4.1. Primeiros passos](./01-fundamentos/04-intro-js/d1-introducao-js/)
+	- [X] [4.2. Array e loop for](./01-fundamentos/04-intro-js/d2-repeticoes/)
 	- [ ] 4.3. Lógica de programação e algoritmos
 	- [ ] 4.4. Objetos e funções
 	- [ ] 4.5. ES6 - let, const, arrow functions e template literais
