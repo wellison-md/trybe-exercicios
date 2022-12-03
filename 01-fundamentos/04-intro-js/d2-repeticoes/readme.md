@@ -18,7 +18,7 @@ Iremos utilizar esse array para realizar os próximos exercícios.
 
 - [x] Utilizando for, descubra qual o maior valor contido no array e imprima-o;
 
-- [ ] Descubra quantos valores ímpares existem no array e imprima o resultado. Caso não exista nenhum, imprima a mensagem: “nenhum valor ímpar encontrado”;
+- [x] Descubra quantos valores ímpares existem no array e imprima o resultado. Caso não exista nenhum, imprima a mensagem: “nenhum valor ímpar encontrado”;
 
 - [ ] Utilizando for, descubra qual o menor valor contido no array e imprima-o;
 
