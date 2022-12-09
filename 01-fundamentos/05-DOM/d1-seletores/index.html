@@ -74,6 +74,13 @@ html
         const headline = document.getElementById('head').innerHTML = correction;
       }
       textCorrection('Desafio - Javascript');
+
+      // exercise 5
+      const changeFirstParagraphToUpperCase = () => {
+        const upperParagraph = document.getElementsByTagName('p')[0].style.textTransform = 'uppercase';
+      }
+      changeFirstParagraphToUpperCase();
+      
     </script>
   </body>
 </html>
