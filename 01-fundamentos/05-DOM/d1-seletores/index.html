@@ -33,7 +33,7 @@ html
   </head>
   <body>
     <header> 
-      <h1 class="title">Desafio - JavaEscripito</h1>
+      <h1 class="title" id="head">Desafio - JavaEscripito</h1>
     </header>    
     <main class="main-content">
       <section class="center-content">
@@ -68,6 +68,12 @@ html
         const square = document.getElementsByTagName('section')[0].style.backgroundColor = newColor;
       }
       changeRedSquare('white');
+
+      // exercise 4
+      const textCorrection = (correction) => {
+        const headline = document.getElementById('head').innerHTML = correction;
+      }
+      textCorrection('Desafio - Javascript');
     </script>
   </body>
 </html>
