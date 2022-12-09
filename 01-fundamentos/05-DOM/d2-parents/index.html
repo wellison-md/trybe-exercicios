@@ -98,7 +98,16 @@
         img1.className = 'small-image';
         img1.src = 'https://picsum.photos/200';
         section2.appendChild(img1);
-        
+
+        //solving exercise #8
+        const fullNumbers = ['Um', 'Dois', 'Três', 'Quatro', 'Cinco', 'Seis', 'Sete', 'Oito', 'Nove', 'Dez'];
+        const ul = document.createElement('ul');
+        for (let index = 0; index < 10; index += 1) {
+          const items = document.createElement('li');
+          items.innerHTML = fullNumbers[index];
+          ul.appendChild(items);
+        }
+        section3.appendChild(ul);
       } 
       exercises();
 
