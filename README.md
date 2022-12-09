@@ -49,7 +49,7 @@
 	
   <br>
 - [ ] **5. JS: DOM, Eventos e Web Storage**
-	- [ ] 5.1. DOM e seletores
+	- [x] [5.1. DOM e seletores](./01-fundamentos/05-DOM/readme.md)
 	- [ ] 5.2. Trabalhando com elementos
 	- [ ] 5.3. Eventos
 	- [ ] 5.4. Web Storage
