@@ -1,86 +1,98 @@
 html
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width" />
-    <title>Exercício</title>
-    
-    <style>
-      main, section {
-        border-color: black;
-        border-style: solid;
-      }
 
-      .title {
-        text-align: center;
-      }
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width" />
+  <title>Exercício</title>
 
-      .main-content {
-        background-color: yellow;
-      }
+  <style>
+    main,
+    section {
+      border-color: black;
+      border-style: solid;
+    }
 
-      .main-content .center-content {
-        background-color: red;
-        width: 50%;
-        margin: 0 auto;
-      }
+    .title {
+      text-align: center;
+    }
 
-      .main-content .center-content p {
-        font-style: italic;
-      }
-    </style>
-  </head>
-  <body>
-    <header> 
-      <h1 class="title" id="head">Desafio - JavaEscripito</h1>
-    </header>    
-    <main class="main-content">
-      <section class="center-content">
-        <p>Texto padrão do nosso site</p>
-        <p>-----</p>
-        <p>Trybe</p>
-      </section>
-    </main>
-    <script>
-      // solving the first exercise
-      const textChangesFromParagraph = (target, newText) => {
-        const paragraphs = document.getElementsByTagName('p');
-        for (let index = 0; index < paragraphs.length; index += 1) {
-          if (paragraphs[index].innerText === target) {
-            paragraphs[index].innerHTML = newText;
-          }        
+    .main-content {
+      background-color: yellow;
+    }
+
+    .main-content .center-content {
+      background-color: red;
+      width: 50%;
+      margin: 0 auto;
+    }
+
+    .main-content .center-content p {
+      font-style: italic;
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <h1 class="title" id="head">Desafio - JavaEscripito</h1>
+  </header>
+  <main class="main-content">
+    <section class="center-content">
+      <p>Texto padrão do nosso site</p>
+      <p>-----</p>
+      <p>Trybe</p>
+    </section>
+  </main>
+  <script>
+    // solving the first exercise
+    const textChangesFromParagraph = (target, newText) => {
+      const paragraphs = document.getElementsByTagName('p');
+      for (let index = 0; index < paragraphs.length; index += 1) {
+        if (paragraphs[index].innerText === target) {
+          paragraphs[index].innerHTML = newText;
         }
       }
-      const target = '-----';
-      const aim = 'Daqui 2 anos almejo estar ocupando uma posição como desenvolvedor web fullstack pleno';
-      textChangesFromParagraph(target, aim);
+    }
+    const target = '-----';
+    const aim = 'Daqui 2 anos almejo estar ocupando uma posição como desenvolvedor web fullstack pleno';
+    textChangesFromParagraph(target, aim);
 
-      // solving the 2nd exercise
-      const changeYellowSquare = (newColor) => {
-        const square = document.getElementsByClassName('main-content')[0];
-        square.style.backgroundColor = newColor;
-      }
-      changeYellowSquare('rgb(76, 164, 109');
+    // solving the 2nd exercise
+    const changeYellowSquare = (newColor) => {
+      const square = document.getElementsByClassName('main-content')[0];
+      square.style.backgroundColor = newColor;
+    }
+    changeYellowSquare('rgb(76, 164, 109');
 
-      // exercise 3
-      const changeRedSquare = (newColor) => {
-        const square = document.getElementsByTagName('section')[0].style.backgroundColor = newColor;
-      }
-      changeRedSquare('white');
+    // exercise 3
+    const changeRedSquare = (newColor) => {
+      const square = document.getElementsByTagName('section')[0].style.backgroundColor = newColor;
+    }
+    changeRedSquare('white');
 
-      // exercise 4
-      const textCorrection = (correction) => {
-        const headline = document.getElementById('head').innerHTML = correction;
-      }
-      textCorrection('Desafio - Javascript');
+    // exercise 4
+    const textCorrection = (correction) => {
+      const headline = document.getElementById('head').innerHTML = correction;
+    }
+    textCorrection('Desafio - Javascript');
 
-      // exercise 5
-      const changeFirstParagraphToUpperCase = () => {
-        const upperParagraph = document.getElementsByTagName('p')[0].style.textTransform = 'uppercase';
+    // exercise 5
+    const changeFirstParagraphToUpperCase = () => {
+      const upperParagraph = document.getElementsByTagName('p')[0].style.textTransform = 'uppercase';
+    }
+    changeFirstParagraphToUpperCase();
+
+    // exercise 6
+    const showAllTagsPContent = () => {
+      const allMyP = document.getElementsByTagName('p');
+      for (let index = 0; index < allMyP.length; index += 1) {
+        console.log(allMyP[index]['textContent']);
       }
-      changeFirstParagraphToUpperCase();
-      
-    </script>
-  </body>
+    }
+    showAllTagsPContent();
+  </script>
+</body>
+
 </html>
