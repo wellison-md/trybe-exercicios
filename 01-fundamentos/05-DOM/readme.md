@@ -64,8 +64,8 @@ Para avaliar seus conhecimentos de HTML, você deve modificar os elementos já e
 document.getElementById();
 document.getElementsByClassName();
 document.getElementsByTagName();
-Requisitos do Projeto:
 ```
+## Requisitos do Projeto:
 
 1. Crie e execute uma função que mude o texto na tag `<p>-----</p>`, para uma descrição de como você se vê daqui a 2 anos;
 2. Crie e execute uma função que mude a cor do quadrado amarelo para `rgb(76,164,109)`;
