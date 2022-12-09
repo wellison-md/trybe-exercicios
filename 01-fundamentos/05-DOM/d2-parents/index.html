@@ -62,13 +62,18 @@
     <script>
       // COLOQUE SEU CÓDIGO AQUI
       //Solving exercise #1
-      const exercise1 = () => {
+      const exercises = () => {
         const myBody = document.getElementsByTagName('body')[0];
         const h1 = document.createElement("h1");
         h1.innerHTML = 'TrybeTrip - Agência de Viagens';
         document.body.appendChild(h1);
+
+        //solving exercise #2
+        const mainElement = document.createElement('main');
+        myBody.className = 'center-content';
+        myBody.appendChild(mainElement);
       } 
-      exercise1();
+      exercises();
 
     </script>
   </body>
