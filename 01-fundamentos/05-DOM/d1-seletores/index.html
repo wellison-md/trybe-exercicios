@@ -43,7 +43,20 @@ html
       </section>
     </main>
     <script>
-      // Seu código aqui
+      // solving the first exercise
+      const textChangesFromParagraph = (target, newText) => {
+        const paragraphs = document.getElementsByTagName('p');
+        for (let index = 0; index < paragraphs.length; index += 1) {
+          if (paragraphs[index].innerText === target) {
+            paragraphs[index].innerHTML = newText;
+          }        
+        }
+      }
+      const target = '-----';
+      const aim = 'Daqui 2 anos almejo estar ocupando uma posição como desenvolvedor web fullstack pleno';
+      textChangesFromParagraph(target, aim);
+
+      
     </script>
   </body>
 </html>
