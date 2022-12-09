@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>Exercício</title>
+    <style>
+      section {
+        border-color: black;
+        border-style: solid;
+      }
+
+      .title {
+        text-align: center;
+      }
+
+      .main-content {
+        background-color: yellow;
+      }
+
+      .main-content .center-content {
+        background-color: red;
+        width: 50%;
+        margin-left: auto;
+        margin-right: auto;
+      }
+
+      .main-content .center-content p {
+        font-style: italic;
+      }
+
+      .main-content .left-content {
+        background-color: green;
+        width: 60%;
+        margin-left: 0;
+        margin-right: auto;
+      }
+
+      .main-content .left-content .small-image {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 100%;
+      }
+
+      .main-content .right-content {
+        background-color: blue;
+        width: 60%;
+        margin-left: auto;
+        margin-right: 0;
+      }
+
+      .main-content .description {
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Trybetrip - Agência de Viagens</h1>
+    <main class="main-section"></main>
+    
+    <script>
+      // COLOQUE SEU CÓDIGO AQUI
+      //Solving exercise #1
+      const exercises = () => {
+        const myBody = document.getElementsByTagName('body')[0];
+        const h1 = document.createElement("h1");
+        h1.innerHTML = 'TrybeTrip - Agência de Viagens';
+        document.body.appendChild(h1);
+
+        //solving exercise #2
+        const mainElement = document.createElement('main');
+        myBody.className = 'center-content';
+        myBody.appendChild(mainElement);
+
+        //solving exercise #3
+        const section1 = document.createElement('section');
+        section1.className = 'center-content';
+        mainElement.appendChild(section1);
+
+        //solving exercise #4
+        const p1 = document.createElement('p');
+        p1.innerHTML = 'Embarque nessa viagem conosco rumo a uma promissora carreira como desenvolvedor!';
+        section1.appendChild(p1);
+
+        //solving exercise #5
+        const section2 = document.createElement('section');
+        section2.className = 'left-content';
+        mainElement.appendChild(section2);
+
+        //solving exercise #6
+        const section3 = document.createElement('section');
+        section3.className = 'right-content';
+        mainElement.appendChild(section3);
+
+        //solving exercise #7
+        const img1 = document.createElement('img');
+        img1.className = 'small-image';
+        img1.src = 'https://picsum.photos/200';
+        section2.appendChild(img1);
+
+        //solving exercise #8
+        const fullNumbers = ['Um', 'Dois', 'Três', 'Quatro', 'Cinco', 'Seis', 'Sete', 'Oito', 'Nove', 'Dez'];
+        const ul = document.createElement('ul');
+        for (let index = 0; index < 10; index += 1) {
+          const items = document.createElement('li');
+          items.innerHTML = fullNumbers[index];
+          ul.appendChild(items);
+        }
+        section3.appendChild(ul);
+
+        //solving exercise #9
+        for (let index = 0; index < 3; index += 1) {
+          const heads = document.createElement('h3');
+          mainElement.appendChild(heads);
+        }
+
+        // solving exercise #10
+        h1.className = 'title';
+
+        // solving exercise #11
+        const h3s = document.getElementsByTagName('h3');
+        for (let index = 0; index < h3s.length; index += 1) {
+          h3s[index].className = 'description';          
+        }
+
+        //solving exercise #12
+        mainElement.removeChild(mainElement.children[1]);
+
+      } 
+      exercises();
+
+    </script>
+  </body>
+</html>
