@@ -92,12 +92,12 @@ Para dar início a página, você deve criar algumas tags:
 
 Após criar as tags anteriores, você mostrou para a sua liderança como estava a estrutura inicial da página. Sua liderança então pediu para que você fizesse algumas alterações:
 
-9. Adicione a classe `title` na tag `h1` criada;
+10. Adicione a classe `title` na tag `h1` criada;
 10. Adicione a classe `description` nas 3 tags `h3` criadas;
 11. Remova a `section` criada no passo 5 (aquele que possui a classe `left-content`). Utilize a função `.removeChild()`;
 12. Centralize a `section` criada no passo 6 (aquele que possui a classe `right-content`).
 
 **De olho na dica 👀::** Para centralizar a `section`, basta configurar o `margin-right`: auto da `section`;
 
-13. Troque a cor de fundo do elemento pai da `section` criada no passo 3 (aquela que possui a classe `center-content`) para a cor verde;
+14. Troque a cor de fundo do elemento pai da `section` criada no passo 3 (aquela que possui a classe `center-content`) para a cor verde;
 14. Remova os dois últimos elementos (nove e dez) da lista criada no passo 8.
