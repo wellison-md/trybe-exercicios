@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Exercício - formulário</title>
+</head>
+<body>
+  <header>
+    <h1>Formulário TrybeTrip</h1>
+  </header>
+
+  <form action="" method="get">
+    <fieldset>
+      <label for="user-name">Nome:
+        <input type="text" name="user-name" id="user-name">
+      </label><br>
+
+      <label for="user-name">Email:
+        <input type="email" name="user-email" id="user-email"><br>
+      </label>
+
+      <label for="options">
+        <input type="radio" name="options" id="options" value="op-1"/>Opção 1
+        <input type="radio" name="options" id="options" value="op-2"/>Opção 2
+        <input type="radio" name="options" id="options" value="op-3"/>Opção 3
+        <input type="radio" name="options" id="options" value="op-4"/>Opção 4
+      </label><br>
+
+      <label for="answer">
+        <p>Espaço para digitar a resposta</p>
+        <input id="answer" type="textarea" cols="" rows="">
+      </label><br>
+
+      <label for="user-date">
+        <input type="date" name="date" id="user-date">
+      </label><br>
+
+      <label for="term1">Concordo 1
+        <input type="checkbox" name="term1" id="term1">
+      </label><br>
+
+      <label for="term2">Concordo 2
+        <input type="checkbox" name="term2" id="term2">
+      </label><br>
+
+    </fieldset>
+    <input type="button" value="Enviar">
+    <input type="reset" value="Apagar">
+  </form>
+  
+</body>
+</html>
