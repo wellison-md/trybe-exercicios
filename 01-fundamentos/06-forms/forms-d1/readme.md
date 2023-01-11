@@ -31,13 +31,13 @@ Concordo que imagens das minhas férias poderão ser usadas na divulgação de c
 
 Esses serão os principais campos utilizados nos próximos exercícios.
 
-- [ ] **1.** Crie um botão para enviar as informações preenchidas.
+- [x] **1.** Crie um botão para enviar as informações preenchidas.
 
-- [ ] **2.** Agora vamos utilizar um pouco de javascript. Para isso, crie o arquivo script.js e o referencie no HTML.
+- [x] **2.** Agora vamos utilizar um pouco de javascript. Para isso, crie o arquivo `script.js` e o referencie no HTML.
 
 :dart: **Dica:** Coloque a tag `<script>` no final do seu body.
 
-- [ ] **3.** Interrompa o comportamento padrão do botão submit utilizando o método `preventDefault()`.
+- [x] **3.** Interrompa o comportamento padrão do botão submit utilizando o método `preventDefault()`.
 
 - [ ] **4.** Crie um botão que limpe as informações contidas nos campos.
 
