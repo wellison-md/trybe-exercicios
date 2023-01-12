@@ -2,89 +2,79 @@
 
 # Trybe exercícios :rocket:
 
-**Turma:** 29 
-**Tribo:** B
+**Turma:** 29  <br>
+**Tribo:** B <br>
 **início:** 4-nov-2022
-
-
 
 <br>
 
 :dart: O objetivo deste repositório é agrupar e expor todos os exercícios e projetos propostos realizados por mim durante a minha jornada de formação como desenvolvedor web full-stack. O curso conta com aproximadamente 1500 horas divididas entre hard e soft-skills, além de projetos reais voltados para o mercado de trabalho. [#vqv]()
-
 <br>
 
-## :round_pushpin: Lista de conteúdos 
+### :round_pushpin: Módulo - 01: Fundamentos
 
-<br>
-
-### Módulo - 01: Fundamentos
-
-
-- [x] **1. Unix e bash**
-	- [x] [1.1. Unix & bash - parte 1](./01-fundamentos/01-unix-e-shell/d1/readme.md)
-	- [x] [1.2. Unix & bash - parte 2](./01-fundamentos/01-unix-e-shell/d2/readme.md)
+- [x] **1. Unix, Shell & Git / Github**
+	- [x] [1.1. Unix & bash - parte 1](./01-fundamentos/01-unix-e-shell/d1/)
+	- [x] [1.2. Unix & bash - parte 2](./01-fundamentos/01-unix-e-shell/d2/)
+	- [x] 1.3. Git - o que é e para que serve
+	- [x] 1.4. Git & Github - entendendo os comandos
 	
   <br>
-- [x] **2. Git & Github**
-	- [x] 2.1. Git - o que é e para que serve
-	- [x] 2.2. Git & Github - entendendo os comandos
+- [x] **2. Introdução à HTML & CSS**
+	- [x] 2.1. Estruturas de página :hourglass:
+	- [x] 2.2. Primeiros passos com CSS :hourglass:
+	- [x] 2.3. Seletores e posicionamento :hourglass:
+	- [x] 2.4. HTML semântico :hourglass:
+	- [x] [2.5. PROJETO - Lessons Learned]()
 	
   <br>
-- [x] **3. Introdução à HTML & CSS**
-	- [x] 3.1. Estruturas de página
-	- [x] 3.2. Primeiros passos com CSS
-	- [x] 3.3. Seletores e posicionamento
-	- [x] 3.4. HTML semântico
-	- [x] 3.5. PROJETO - Lessons Learned
+- [x] **3. Introdução à Javascript**
+	- [x] [3.0. Dinâmica: resolução de algoritmos](/01-fundamentos/03-intro-js/d0-intro/)
+	- [x] [3.1. Primeiros passos](./01-fundamentos/03-intro-js/d1-introducao-js/)
+	- [X] [3.2. Array e loop for](./01-fundamentos/03-intro-js/d2-repeticoes/)
+	- [x] [3.3. Lógica de programação e algoritmos](./01-fundamentos/03-intro-js/d3-algoritmos/)
+	- [x] 3.4. Objetos e funções :hourglass:
+	- [x] 3.5. ES6 - let, const, arrow functions e template literais :hourglass:
+	- [x] 3.6. PROJETO - Playground Functions :hourglass:
 	
   <br>
-- [x] **4. Introdução à Javascript**
-	- [x] [4.1. Primeiros passos](./01-fundamentos/04-intro-js/d1-introducao-js/)
-	- [X] [4.2. Array e loop for](./01-fundamentos/04-intro-js/d2-repeticoes/)
-	- [ ] 4.3. Lógica de programação e algoritmos
-	- [ ] 4.4. Objetos e funções
-	- [ ] 4.5. ES6 - let, const, arrow functions e template literais
-	- [ ] 4.6. PROJETO - Playground Functions
+- [ ] **4. JS: DOM, Eventos e Web Storage**
+	- [x] [4.1. DOM e seletores](./01-fundamentos/05-DOM/d1-seletores)
+	- [x] [4.2. Trabalhando com elementos](./01-fundamentos/04-DOM/d2-parents/)
+	- [ ] 4.3. Eventos :hourglass:
+	- [ ] 4.4. Web Storage :hourglass:
+	- [ ] 4.5. PROJETO - Arte com pixels :hourglass:
+	- [ ] 4.6. PROJETO - Bônus :hourglass:
 	
   <br>
-- [ ] **5. JS: DOM, Eventos e Web Storage**
-	- [x] [5.1. DOM e seletores](./01-fundamentos/05-DOM/readme.md)
-	- [ ] 5.2. Trabalhando com elementos
-	- [ ] 5.3. Eventos
-	- [ ] 5.4. Web Storage
-	- [ ] 5.5. PROJETO - Arte com pixels
-	- [ ] 5.6. PROJETO - Bônus
+- [ ] **5. HTML e CSS: Forms, FlexBox e responsividade**
+	- [ ] 5.1. HTML  & CSS - Forms
+	- [ ] 5.2. Bibliotecas JS e Frameworks CSS
+	- [ ] 5.3. CSS Flexbox - parte 1
+	- [ ] 5.4. CSS Flexbox - parte 2
+	- [ ] 5.5. CSS Responsivo - Mobile first approach
+	- [ ] 5.6. PROJETO - Trybewarts
 	
   <br>
-- [ ] **6. HTML e CSS: Forms, FlexBox e responsividade**
-	- [ ] 6.1. HTML  & CSS - Forms
-	- [ ] 6.2. Bibliotecas JS e Frameworks CSS
-	- [ ] 6.3. CSS Flexbox - parte 1
-	- [ ] 6.4. CSS Flexbox - parte 2
-	- [ ] 6.5. CSS Responsivo - Mobile first approach
-	- [ ] 6.6. PROJETO - Trybewarts
+- [ ] **6. Introdução à Javascript ES6 e Testes unitários**
+	- [ ] 6.1. Fluxo de exceções e manipulações de objetos
+	- [ ] 6.2. Primeiros passos com Jest
+	- [ ] 6.3. Matchers e cobertura de código
+	- [ ] 6.4. PROJETO - Javascript Testes Unitários
 	
   <br>
-- [ ] **7. Introdução à Javascript ES6 e Testes unitários**
-	- [ ] 7.1. Fluxo de exceções e manipulações de objetos
-	- [ ] 7.2. Primeiros passos com Jest
-	- [ ] 7.3. Matchers e cobertura de código
-	- [ ] 7.4. PROJETO - Javascript Testes Unitários
-	
-  <br>
-- [ ] **. Higher Order Functions do JS ES6**
-	- [ ] 8.1. Introdução a Higher Order Functions
-	- [ ] 8.2. Higher Order Functions - forEach, find, some, every, sort
-	- [ ] 8.3. Higher Order Functions - map e filter
-	- [ ] 8.4. Higher Order Functions - reduce
-	- [ ] 8.5. JS ES6 - spread operator, parâmetro rest, destructuring e mais
-	- [ ] 8.6. PROJETO - Zoo Functions
+- [ ] **7. Higher Order Functions do JS ES6**
+	- [ ] 7.1. Introdução a Higher Order Functions
+	- [ ] 7.2. Higher Order Functions - forEach, find, some, every, sort
+	- [ ] 7.3. Higher Order Functions - map e filter
+	- [ ] 7.4. Higher Order Functions - reduce
+	- [ ] 7.5. JS ES6 - spread operator, parâmetro rest, destructuring e mais
+	- [ ] 7.6. PROJETO - Zoo Functions
 	
 <br>
 
-### Módulo - 02: Front-end  :rotating_light: :construction: :construction: :construction:
+### :round_pushpin: Módulo - 02: Front-end  :rotating_light: :construction: :construction: :construction:
 
-### Módulo - 03: Back-end :rotating_light: :construction: :construction: :construction:
+### :round_pushpin: Módulo - 03: Back-end :rotating_light: :construction: :construction: :construction:
 
-### Módulo - 04: Ciência da computação :rotating_light: :construction: :construction: :construction:
+### :round_pushpin: Módulo - 04: Ciência da computação :rotating_light: :construction: :construction: :construction:
