@@ -39,7 +39,7 @@
 	
   <br>
 - [ ] **4. JS: DOM, Eventos e Web Storage**
-	- [x] [4.1. DOM e seletores](./01-fundamentos/05-DOM/d1-seletores)
+	- [x] [4.1. DOM e seletores](./01-fundamentos/04-DOM/d1-seletores)
 	- [x] [4.2. Trabalhando com elementos](./01-fundamentos/04-DOM/d2-parents/)
 	- [ ] 4.3. Eventos :hourglass:
 	- [ ] 4.4. Web Storage :hourglass:
@@ -48,7 +48,7 @@
 	
   <br>
 - [ ] **5. HTML e CSS: Forms, FlexBox e responsividade**
-	- [ ] 5.1. HTML  & CSS - Forms
+	- [x] [5.1. HTML  & CSS - Forms](./01-fundamentos/05-forms/forms-d1/)
 	- [ ] 5.2. Bibliotecas JS e Frameworks CSS
 	- [ ] 5.3. CSS Flexbox - parte 1
 	- [ ] 5.4. CSS Flexbox - parte 2

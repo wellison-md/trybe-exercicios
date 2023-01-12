@@ -1,4 +1,4 @@
-# Exercícios - agora, a prática 1-4-2
+# Exercícios - agora, a prática 
 
 ## Aprofunde seus conhecimentos
 ## 🚀 Se liga nesse foguete!
