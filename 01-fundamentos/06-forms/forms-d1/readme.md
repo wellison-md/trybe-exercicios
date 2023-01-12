@@ -39,7 +39,7 @@ Esses serão os principais campos utilizados nos próximos exercícios.
 
 - [x] **3.** Interrompa o comportamento padrão do botão submit utilizando o método `preventDefault()`.
 
-- [ ] **4.** Crie um botão que limpe as informações contidas nos campos.
+- [x] **4.** Crie um botão que limpe as informações contidas nos campos.
 
 ## Bônus
 

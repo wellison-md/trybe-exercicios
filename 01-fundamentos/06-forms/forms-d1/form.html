@@ -11,7 +11,7 @@
     <h1>Formulário TrybeTrip</h1>
   </header>
 
-  <form action="" method="get">
+  <form action="" method="get" id="trybetrip-form">
     <label>
       <label for="user-name">Nome:
         <input type="text" name="user-name" id="user-name"minlength="10" maxlength="40" required>
@@ -47,12 +47,18 @@
         <input type="date" name="date" id="user-date">
       </label><br>
 
-      <label for="term1">Gostaria de receber outras incríveis oportunidades oferecidas pela Trybe?
+      <label for="term1">
         <input type="checkbox" name="term1" id="term1">
+        Gostaria de receber outras incríveis oportunidades oferecidas pela Trybe?
       </label><br>
 
-      <label for="term2">Concordo que imagens das minhas férias poderão ser usadas na divulgação de concursos futuros.
-        <input type="checkbox" name="term2" id="term2">
+      <label for="allow-upload-photos-chkbox">
+        <input type="checkbox" name="term2" id="allow-upload-photos-chkbox">
+        Concordo que imagens das minhas férias poderão ser usadas na divulgação de concursos futuros.
+      </label><br>
+
+      <label for="my-photos-input">
+        <input type="file" name="my-photos" id="my-photos-input" disabled>
       </label><br>
 
     </fieldset>
