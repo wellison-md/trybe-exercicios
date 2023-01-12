@@ -11,7 +11,7 @@
     <h1>Formulário TrybeTrip</h1>
   </header>
 
-  <form action="" method="get" id="trybetrip-form">
+  <form action="" method="POST" id="trybetrip-form">
     <label>
       <label for="user-name">Nome:
         <input type="text" name="user-name" id="user-name"minlength="10" maxlength="40" required>
@@ -58,7 +58,7 @@
       </label><br>
 
       <label for="my-photos-input">
-        <input type="file" name="my-photos" id="my-photos-input" disabled>
+        <input type="file" name="my-photos" id="my-photos-input" enctype="multipart/form-data" disabled>
       </label><br>
 
     </fieldset>
