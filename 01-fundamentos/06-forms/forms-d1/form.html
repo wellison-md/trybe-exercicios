@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Exercício - formulário</title>
+</head>
+<body>
+  <header>
+    <h1>Formulário TrybeTrip</h1>
+  </header>
+
+  <form action="" method="POST" id="trybetrip-form">
+    <label>
+      <label for="user-name">Nome:
+        <input type="text" name="user-name" id="user-name"minlength="10" maxlength="40" required>
+      </label><br>
+
+      <label for="user-name">Email:
+        <input type="email" name="user-email" id="user-email" minlength="10" maxlength="50" required><br>
+      </label><br>
+
+      <label for="city"> Destino preferido
+        <input type="radio" name="favoriteDestiny" id="city" value="city"/>Cidade
+      </label>
+
+      <label for="fields">
+        <input type="radio" name="favoriteDestiny" id="fields" value="fields"/>Campo
+      </label>
+
+      <label for="beach">
+        <input type="radio" name="favoriteDestiny" id="beach" value="beach"/>Praia
+      </label>
+
+      <label for="mountains">
+        <input type="radio" name="favoriteDestiny" id="mountains" value="mountains"/>Montanhas
+      </label>
+      <br>
+
+      <label for="answer">
+        <p>Por que você deveria ser a pessoa desenvolvedora a ganhar o concurso TrybeTrip?</p>
+        <textarea id="answer" cols="60" rows="10" maxlength="500"></textarea>
+      </label><br>
+
+      <label for="user-date">Qual a melhor Data para realizar sua viagem?
+        <input type="date" name="date" id="user-date">
+      </label><br>
+
+      <label for="term1">
+        <input type="checkbox" name="term1" id="term1">
+        Gostaria de receber outras incríveis oportunidades oferecidas pela Trybe?
+      </label><br>
+
+      <label for="allow-upload-photos-chkbox">
+        <input type="checkbox" name="term2" id="allow-upload-photos-chkbox">
+        Concordo que imagens das minhas férias poderão ser usadas na divulgação de concursos futuros.
+      </label><br>
+
+      <label for="my-photos-input">
+        <input type="file" name="my-photos" id="my-photos-input" enctype="multipart/form-data" disabled>
+      </label><br>
+
+    </fieldset>
+    <input type="submit" id="submit-button" value="Enviar">
+    <input type="reset" id="reset-button" value="Apagar">
+  </form>
+  
+  <script src="./script.js"></script>
+</body>
+</html>
