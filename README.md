@@ -8,7 +8,7 @@
 
 <br>
 
-:dart: O objetivo deste repositório é agrupar e expor todos os exercícios e projetos propostos realizados por mim durante a minha jornada de formação como desenvolvedor web full-stack. O curso conta com aproximadamente 1500 horas divididas entre hard e soft-skills, além de projetos reais voltados para o mercado de trabalho. [#vqv]()
+:dart: O objetivo deste repositório é agrupar e expor todos os exercícios propostos e projetos realizados por mim durante a minha jornada de formação como desenvolvedor web full-stack na Trybe. O curso conta com aproximadamente 1500 horas divididas entre hard e soft-skills, além de projetos reais voltados para o mercado de trabalho. [#vqv]()
 <br>
 
 ### :round_pushpin: Módulo - 01: Fundamentos
@@ -25,7 +25,7 @@
 	- [x] 2.2. Primeiros passos com CSS :hourglass:
 	- [x] 2.3. Seletores e posicionamento :hourglass:
 	- [x] 2.4. HTML semântico :hourglass:
-	- [x] [2.5. PROJETO - Lessons Learned]()
+	- [x] [2.5. PROJETO - Lessons Learned](https://wellison-md.github.io)
 	
   <br>
 - [x] **3. Introdução à Javascript**
@@ -33,7 +33,7 @@
 	- [x] [3.1. Primeiros passos](./01-fundamentos/03-intro-js/d1-introducao-js/)
 	- [X] [3.2. Array e loop for](./01-fundamentos/03-intro-js/d2-repeticoes/)
 	- [x] [3.3. Lógica de programação e algoritmos](./01-fundamentos/03-intro-js/d3-algoritmos/)
-	- [x] 3.4. Objetos e funções :hourglass:
+	- [x] [3.4. Objetos e funções](./01-fundamentos/03-intro-js/d4-objetos/)
 	- [x] 3.5. ES6 - let, const, arrow functions e template literais :hourglass:
 	- [x] 3.6. PROJETO - Playground Functions :hourglass:
 	

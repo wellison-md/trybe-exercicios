@@ -7,7 +7,8 @@ submitButton.addEventListener('click', (event) => {
 });
 */
 
-/* Exercício 5 (bônus). A TrybeTrip precisa muito de fotos para divulgar seus concursos. Tendo isso em mente, faça com que somente quem autorizar o uso de imagens possa enviar suas informações. */
+/* Exercício 5 (bônus). 
+A TrybeTrip precisa muito de fotos para divulgar seus concursos. Tendo isso em mente, faça com que somente quem autorizar o uso de imagens possa enviar suas informações. */
 
 const allowUploadPhotos = document.getElementById('allow-upload-photos-chkbox');
 allowUploadPhotos.onclick = (event) => {
@@ -25,8 +26,8 @@ window.onload = () => {
   document.getElementById('trybetrip-form').reset();
 }
 
-
-/* Exercício 6 (bônus).Faça a validação dos campos com limite de caracteres. Caso não estejam dentro do esperado ao clicar no botão de submit, um alerta deve ser mostrado com a mensagem: `‘Dados Inválidos’`. Caso contrário, a mensagem `‘Dados enviados com sucesso! Obrigado por participar do concurso TrybeTrip.’` deverá aparecer na tela.
+/* Exercício 6 (bônus).
+Faça a validação dos campos com limite de caracteres. Caso não estejam dentro do esperado ao clicar no botão de submit, um alerta deve ser mostrado com a mensagem: `‘Dados Inválidos’`. Caso contrário, a mensagem `‘Dados enviados com sucesso! Obrigado por participar do concurso TrybeTrip.’` deverá aparecer na tela.
  */
 
 function checkSizeFields(targetObject, minSize, maxSize) {
@@ -51,4 +52,3 @@ submitButton.onclick = () => {
     window.alert('Dados Inválidos');
   }
 };
-
