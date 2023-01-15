@@ -33,7 +33,7 @@
 	- [x] [3.1. Primeiros passos](./01-fundamentos/03-intro-js/d1-introducao-js/)
 	- [X] [3.2. Array e loop for](./01-fundamentos/03-intro-js/d2-repeticoes/)
 	- [x] [3.3. Lógica de programação e algoritmos](./01-fundamentos/03-intro-js/d3-algoritmos/)
-	- [x] [3.4. Objetos e funções](./01-fundamentos/03-intro-js/d4-objetos/)
+	- [x] [3.4. Objetos e funções](./01-fundamentos/03-intro-js/d4-objetos/) :sunglasses: :point_right: [Desafio bônus]() :point_left: :sunglasses:
 	- [x] 3.5. ES6 - let, const, arrow functions e template literais :hourglass:
 	- [x] 3.6. PROJETO - Playground Functions :hourglass:
 	
