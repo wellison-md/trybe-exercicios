@@ -33,7 +33,7 @@ nota
 recorrente
 ```
 
-- [ ] **4.** Faça um novo `for/in`, mas agora mostre todos os valores das chaves :key: do objeto. Valor esperado no console: 
+- [x] **4.** Faça um novo `for/in`, mas agora mostre todos os valores das chaves :key: do objeto. Valor esperado no console: 
 
 ```shell
 Margarida
