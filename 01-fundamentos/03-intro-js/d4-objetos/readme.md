@@ -24,7 +24,7 @@ let info = {
   recorrente: 'Sim'
 }
 ```
-- [ ] **3.** Faça um `for/in` que mostre todas as chaves do objeto. Valor esperado no console:
+- [x] **3.** Faça um `for/in` que mostre todas as chaves do objeto. Valor esperado no console:
 
 ```shell
 personagem
