@@ -57,7 +57,7 @@ console.log('O resultado da soma de ' + a + ' + ' + b + ' é: ' + soma(a,b));
 ```
 ---
 
-- [ ] **5.** Modifique a estrutura das funções a seguir para que elas sejam `arrow functions`. Transforme a função `numeroAleatorio` em uma `arrow function`. Copie o código abaixo:
+- [x] **5.** Modifique a estrutura das funções a seguir para que elas sejam `arrow functions`. Transforme a função `numeroAleatorio` em uma `arrow function`. Copie o código abaixo:
 
 ```js
 function numeroAleatorio() {
@@ -68,7 +68,7 @@ console.log(numeroAleatorio());
 
 ---
 
-- [ ] **6.** Transforme a função `hello` em uma `arrow function`. Copie o código abaixo:
+- [x] **6.** Transforme a função `hello` em uma `arrow function`. Copie o código abaixo:
 
 ```js
 function hello(nome) {
