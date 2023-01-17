@@ -32,7 +32,7 @@ console.log('Idade:', pessoa.idade);
 ```
 ---
 
-- [ ] **3.** Modifique a variável para que não ocorra `Erro`. Copie o código abaixo e rode-o para verificar sua saída:
+- [x] **3.** Modifique a variável para que não ocorra `Erro`. Copie o código abaixo e rode-o para verificar sua saída:
 
 ```js
 const favoriteFood = 'Lasanha';
@@ -41,12 +41,12 @@ console.log(favoriteFood);
 ```
 ---
 
-- [ ] **4.** Modifique as concatenações para `template literals`. Copie o código abaixo:
+- [x] **4.** Modifique as concatenações para `template literals`. Copie o código abaixo:
 
 ```js
-const name = 'Adriana';
+const firstName = 'Adriana';
 const lastName = 'Soares';
-console.log('Olá' + ',' + name + ' ' + lastName + '!');
+console.log('Olá' + ',' + firstName + ' ' + lastName + '!');
 function soma(a,b) {
   let resultado = a + b;
   return resultado;
