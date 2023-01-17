@@ -1,6 +1,6 @@
 # :gear: Exercícios - parte 1
 
- - [ ] **1.** Altere o tipo das variáveis `var` para `let` ou `const` para que respeitem o escopo em que foram declaradas. Modifique a variável para que respeite o escopo onde está sendo declarada.
+ - [x] **1.** Altere o tipo das variáveis `var` para `let` ou `const` para que respeitem o escopo em que foram declaradas. Modifique a variável para que respeite o escopo onde está sendo declarada.
 :warning:  Lembre-se: para que a variável respeite o escopo, ela **não deve ser acessível fora do escopo em que esteja sendo declarada**. Copie o código abaixo e rode-o para verificar sua saída:
 
 ```js
@@ -15,7 +15,7 @@ imprimeIdade();
 
 ---
 
-- [ ] **2.** Altere o valor das propriedades do objeto, para que respeite as características da variável do tipo `const`; Copie o código abaixo e rode-o para verificar sua saída:
+- [x] **2.** Altere o valor das propriedades do objeto, para que respeite as características da variável do tipo `const`; Copie o código abaixo e rode-o para verificar sua saída:
 
 ```js
 // Executando esse código iremos receber um erro `TypeError: Assignment to constant variable.`
@@ -96,6 +96,7 @@ const speedCar = (speed) => {
 ---
 
 <br>
+
 # :gear: Exercícios  - parte 2 
 
 Abaixo, você verá algumas especificações de algoritmos para desenvolver. É fundamental que você utilize o que aprendeu sobre `let`, `const`, `arrow functions`, `template literals` e `ternary operator`.
