@@ -80,7 +80,7 @@ console.log(hello(nome));
 
 ---
 
-- [ ] **7.** Altere a expressão `if/else` utilizando `ternary operator`. Copie o código Abaixo:
+- [x] **7.** Altere a expressão `if/else` utilizando `ternary operator`. Copie o código Abaixo:
 
 ```js
 let speed = 90;
