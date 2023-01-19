@@ -57,7 +57,7 @@
 	
   <br>
 - [ ] **6. Introdução à Javascript ES6 e Testes unitários**
-	- [ ] 6.1. Fluxo de exceções e manipulações de objetos
+	- [ ] [6.1. Fluxo de exceções e manipulações de objetos](./01-fundamentos/06-ES6-testes/d1-object-throw-try-catch/)
 	- [ ] 6.2. Primeiros passos com Jest
 	- [ ] 6.3. Matchers e cobertura de código
 	- [ ] 6.4. PROJETO - Javascript Testes Unitários
