@@ -161,7 +161,7 @@ const lesson3 = {
 };
 ```
 
-- [ ] **6.** Crie uma função para adicionar o turno da noite na `lesson2` Essa função deve possuir três parâmetros, sendo eles: o `objeto` a ser modificado, a `chave` que deverá ser adicionada e o `valor` dela.
+- [x] **6.** Crie uma função para adicionar o turno da noite na `lesson2` Essa função deve possuir três parâmetros, sendo eles: o `objeto` a ser modificado, a `chave` que deverá ser adicionada e o `valor` dela.
 
 ---
 
