@@ -39,13 +39,9 @@ Copie e cole o código abaixo no seu editor de texto:
 </html>
 ```
 
-:eyes: Tire um tempinho para entender o código acima. A aplicação pede à pessoa usuária que informe dois números para realizar uma soma. Esses números são inseridos através dos inputs;
+:warning: :eyes: **Tire um tempinho para entender o código acima.** A aplicação pede à pessoa usuária que informe dois números para realizar uma soma. Esses números são inseridos através dos inputs; Ao clicar o botão, a função `sum` é chamada, capturando o valor escrito nos inputs e realizando a operação. Antes, é necessária a conversão do valor usando o `Number()`, pois ele chega à função em forma de `string`. Há também outras formas de se converter uma string em um número, como o `parseInt()` e o `parseFloat()`. Ao final, a função `sum` imprime o valor em um parágrafo e limpa os inputs para que a pessoa usuária possa inserir novos valores. Aparentemente está tudo funcionando, mas a aplicação não possui fluxo de exceção. Ou seja, caso ocorra um erro, eles não serão tratados. Que tal resolver isso?
 
-Ao clicar o botão, a função `sum` é chamada, capturando o valor escrito nos inputs e realizando a operação. Antes, é necessária a conversão do valor usando o `Number()`, pois ele chega à função em forma de `string`. Há também outras formas de se converter uma string em um número, como o `parseInt()` e o `parseFloat()`.
-
-Ao final, a função `sum` imprime o valor em um parágrafo e limpa os inputs para que a pessoa usuária possa inserir novos valores.
-
-Aparentemente está tudo funcionando, mas a aplicação não possui fluxo de exceção. Ou seja, caso ocorra um erro, eles não serão tratados. Que tal resolver isso?
+---
 
 - [x] **1.** Crie erros personalizados. Tente executar a aplicação com um dos valores em branco. Notou que o retorno não é muito descritivo? Utilize o `throw new Error('')` e o bloco `try/catch`.
 
@@ -165,7 +161,7 @@ const lesson3 = {
 
 ---
 
-- [ ] **7.** Crie uma função para listar as `keys` de um objeto. Essa função deve receber um objeto como parâmetro.
+- [x] **7.** Crie uma função para listar as `keys` de um objeto. Essa função deve receber um objeto como parâmetro.
 
 ---
 
