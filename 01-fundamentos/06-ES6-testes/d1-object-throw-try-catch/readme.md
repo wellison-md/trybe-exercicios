@@ -173,7 +173,7 @@ const lesson3 = {
 
 ---
 
-- [ ] **10.** Crie um objeto de nome `allLessons`, que deve agrupar todas as aulas através do `Object.assign`. Cada :key: chave desse novo objeto será uma aula, sendo essas chaves `lesson1`, `lesson2` e `lesson3`. Ao executar o comando `console.log(allLessons)`, a saída deverá ser a seguinte:
+- [x] **10.** Crie um objeto de nome `allLessons`, que deve agrupar todas as aulas através do `Object.assign`. Cada :key: chave desse novo objeto será uma aula, sendo essas chaves `lesson1`, `lesson2` e `lesson3`. Ao executar o comando `console.log(allLessons)`, a saída deverá ser a seguinte:
 
 ```shell
 {
