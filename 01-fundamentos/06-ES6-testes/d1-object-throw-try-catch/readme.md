@@ -165,7 +165,7 @@ const lesson3 = {
 
 ---
 
-- [ ] **8.** Crie uma função para mostrar o tamanho de um objeto.
+- [x] **8.** Crie uma função para mostrar o tamanho de um objeto.
 
 ---
 
