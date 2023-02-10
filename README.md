@@ -73,7 +73,16 @@
 	
 <br>
 
-### :round_pushpin: Módulo - 02: Front-end  :rotating_light: :construction: :construction: :construction:
+### :round_pushpin: Módulo - 02: Front-end  
+
+- [ ] **1. Introdução  ao Frontend e JavaScript assíncrono**
+	- [x] [1.1. Ambiente de desenvolvimento](./02-front-end/01-intro-js-async/)
+	- [ ] [1.2. JS assíncrono - Promises e fetch]()
+	- [ ] [1.3. Prática - Casa de câmbio]()
+	- [ ] [1.4. Async / Await e testes assíncronos]()
+	- [ ] [1.5. PROJETO - Carrinho de compras]()
+
+
 
 ### :round_pushpin: Módulo - 03: Back-end :rotating_light: :construction: :construction: :construction:
 
